@@ -23,6 +23,8 @@ R = X(Ri,:);
 S = X(Si,:);
 
 M = [R(:,1), zeros(U,3)];
+N = [R(:,1), zeros(U,3)];
+
 
 for Rj = 1:length(R)
     Min = 1000;
